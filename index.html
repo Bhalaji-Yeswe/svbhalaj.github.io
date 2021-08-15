@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Yeswe Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous">
+
+        <!--Update these with your own-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <!--div class="logo">
+                <img src="img/SVBhalaj.jpg" alt="">
+            </div-->
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <!--li class="nav__item"><a href="#home" class="nav__link">Home</a></li-->
+                    <li class="nav__item"><a href="#aboutme" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Personal Projects</a></li>
+                    <li class="nav__item"><a href="#accomp" class="nav__link">My Accomplishments</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>S V Bhalaji</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src="img/SVBhalaj.jpg" alt="a pic of me" class="intro img">
+        </section>
+
+        <!--About Me-->
+        <section class="about" id="aboutme">
+                <h2 class="section__title section__title-about">I'am...</h2>
+                <p class="section__subtitle section__subtitle--about"></p>
+
+                <div class="about-me__body">
+                    <p>An Engineer with hands-on experience of 2+ years in designing, developing,
+                       optimizing cloud native applications/solutions with scalability and 
+                       security as core principal in development process. 
+                       Seeking to leverage development experience in cloud for a challenging role.</p>
+                </div>
+        </section>
+
+        <!--Experience-->
+        <section class="experience" id="experience">
+            <h2 class="section__title section__title-experience">Experience</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <p><strong>Unisys India | JULY 2019 - PRESENT</strong></p>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <div class="experience__body">
+                <ul class="experience_list">
+                <li class="ex1">Responsible for requirement analysis, architecting, developing, unit 
+                   tested cloud native application. To automate the environment 
+                   setup of proprietary software and deployed in public cloud (Azure).</li>
+                <li class="ex2">Designed and developed a framework to monitor the health of
+                   storage management and Virtual machines in Azure.</li>
+                <li class="ex3">Developed a desktop app for creating a Jenkins job remotely to 
+                   build, deploy and test the applications.</li>
+                <li class="ex4">Worked closely with clients to understand their feature requests 
+                   and build solutions as requested.</li>
+                <li class="ex5">Adhered to the Organization and Regional Compliance to develop 
+                   the applications.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section class="skills" id="skills">
+            <h2 class="section__title section__title--skills">Skills</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <div class="skills-container">
+            <!--Programming Languages-->
+            <div class="Programming languages_body">
+                <h3 class="programming_lang">Programming Languages</h3>
+                <ul class="languages">
+                <li class="lang1">C#</li>
+                <li class="lang2">Java</li>
+                <li class="lang3">JavaScript</li>
+                <li class="lang4">TypeScript</li>
+                </ul>
+            </div>
+            
+            <!--Frontend frameworks-->
+            <div class="Frontend frameworks_body">
+            <h3 class="Frontend frameworks">Frontend Frameworks</h3>
+            <ul class="frontend_framework">
+                <li class="front1">Angular</li>
+                <li class="front2">React.js</li>
+            </ul>
+            </div>
+
+            <!--Backend frameworks-->
+            <div class="Backend frameworks_body">
+                <h3 class="Backend frameworks">Backend Frameworks</h3>
+                <ul class="backend_framework">
+                    <li class="back1">Node.js</li>
+                    <li class="back2">ASP.NET</li>
+                </ul>
+            </div>
+
+            <!--CI/CD tools-->
+            <div class="CI/CD_body">
+                <h3 class="CI/CD tools">CI/CD tools</h3>
+                <ul class="CI/CD_tools">
+                <li class="cd1">Jenkins</li>
+                <li class="cd2">Azure DevOps</li>
+                </ul>
+            </div>
+            </div>
+        </section>
+
+        <!--Projects and Azzomplishments-->
+        <section class="projects" id="projects">
+            <h2 class="section__title section__title--projects">Personal Projects</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <div class="Echo_body">
+                <h3 class="Echo">Echo</h3>
+                <p class="Echo_tools"><strong>Tools: </strong>Java (Android)</p>
+                <p class="About Echo">Echo is an android application which was designed to unite various 
+                    functionality of regular applications and to unite people. It has another 
+                    module which unites consumer with sellers directly with features to make 
+                    shopping more intuitive.
+                </p>
+            </div>
+            
+            <div class="BayMax_body">
+                <h3 class="Baymax">Baymax</h3>
+                <p class="Baymax_tools"><strong>Tools: </strong>Java (Android), C (SW) | Raspberry Pi3, NodeMCU (WIFI), Relay 
+                    module (HW)</p>
+                <p class="About_Baymax">Baymax is generic home automation that can span to take control over the 
+                    system in low cost with better efficiency. With low latency control over
+                    electrical device which is less than 1sec (approx.). It provides an android
+                    app to access and control devices remotely and has voice control.
+                </p>
+            </div>
+
+            <div class="Postman_body">
+                <h3 class="Postman">Postman Replica</h3>
+                <p class="Postman_tools"><strong>Tools: </strong>Node.js and Angular</p>
+                <p class="About_Postman">Postman replica is an API testing tool, which is a Web application. It’s a 
+                    lite version of actual postman.
+                </p>
+            </div>
+        </section>
+
+        <section class="accomp" id="accomp">
+            <h2 class="Accomplishments_body">Accomplishments</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+                <ul class="accomplishments">
+                    <a href="https://www.credly.com/badges/378a585b-b926-48a2-b9ac-5245d8f1b47c/linked_in"><img src="img/AZ204.png" class="accomp_img az204">
+                    <a href="https://www.hackerrank.com/arvisingaravelou?badge=problem-solving&stars=3&level=2&hr_r=1&utm_campaign=social-buttons&utm_medium=linkedin&utm_source=badge_share_profile&social=linkedin"><img src="img/AZ900.png" class="accomp_img az900">
+                    <a href="https://www.credly.com/badges/8c496838-a305-4e70-919d-5f116ebd8462/linked_in"><img src="img/Silver.png"class="accomp_img silver">
+                </ul>
+        </section>
+    
+    <!--Footer-->
+    <footer class="footer">
+        <a class="footer__link">arvisingaravelou@gmail.com | +91 7339024896 | Puducherry</a>
+        <ul class="social-list">
+            <li class="social-list__items">
+                <a class="instagram__link" href="https://www.instagram.com/yeswe_08/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__items">
+                <a class="linkedin__link" href="https://www.linkedin.com/in/bhalaji-sv/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__items">
+                <a class="github__link" href="https://github.com/Bhalaji-Yeswe">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
